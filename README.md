@@ -29,7 +29,7 @@ Este proyecto es una API construida con Django y Graphene que expone datos del u
 
 ---
 
-## 🐳 Instalación con Docker
+## 🐳 Ejecución con Docker
 
 1. Clona el repositorio:
 
@@ -57,6 +57,25 @@ docker compose exec starwars_api python manage.py loaddata initial_data
 http://localhost:8000/graphql/
 ```
 
+---
+
+## ⚙️ Configuración de Variables de Entorno
+
+Este proyecto requiere un archivo `.env` para configurar las variables de entorno necesarias para ejecutar el backend correctamente. A continuación, se indican los pasos para crear este archivo y las variables que deben ser definidas.
+
+### 1. Crear el archivo `.env`
+En la raíz del proyecto, crea un archivo llamado `.env`
+````bash
+touch .env
+````
+
+### Archivo .env
+````
+DJANGO_SETTINGS_MODULE=starwars_api.settings.dev
+DJANGO_SECRET_KEY='secret key'
+DJANGO_DEBUG=True  # Usa False en producción
+DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
+````
 ---
 
 ## 🧪 Pruebas
@@ -131,7 +150,7 @@ Este proyecto es de uso educativo y libre. No afiliado con Disney o Lucasfilm.
 
 ## 👨‍💻 Autor
 
-Diego Martínez – [https://github.com/d1egoM](https://github.com/d1egoM/starwars-api-lqn)
+Diego Martínez – [https://github.com/d1egoM](https://github.com/d1egoM)
 
 ---
 
