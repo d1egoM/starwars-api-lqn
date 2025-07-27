@@ -1,0 +1,349 @@
+[
+  {
+    "model": "starwars.planet",
+    "pk": 1,
+    "fields": {
+      "name": "Tatooine",
+      "climate": "arid",
+      "population": 200000
+    }
+  },
+  {
+    "model": "starwars.planet",
+    "pk": 2,
+    "fields": {
+      "name": "Alderaan",
+      "climate": "temperate",
+      "population": 2000000000
+    }
+  },
+  {
+    "model": "starwars.planet",
+    "pk": 3,
+    "fields": {
+      "name": "Hoth",
+      "climate": "frozen",
+      "population": null
+    }
+  },
+  {
+    "model": "starwars.planet",
+    "pk": 4,
+    "fields": {
+      "name": "Naboo",
+      "climate": "temperate",
+      "population": 4500000000
+    }
+  },
+  {
+    "model": "starwars.planet",
+    "pk": 5,
+    "fields": {
+      "name": "Coruscant",
+      "climate": "temperate",
+      "population": 1000000000000
+    }
+  },
+  {
+    "model": "starwars.character",
+    "pk": 1,
+    "fields": {
+      "name": "Luke Skywalker",
+      "birth_year": "19BBY",
+      "gender": "Male",
+      "homeworld": 1,
+      "species": "Human",
+      "affiliation": "Rebel Alliance",
+      "actor": "Mark Hamill"
+    }
+  },
+  {
+    "model": "starwars.character",
+    "pk": 2,
+    "fields": {
+      "name": "Leia Organa",
+      "birth_year": "19BBY",
+      "gender": "Female",
+      "homeworld": 2,
+      "species": "Human",
+      "affiliation": "Rebel Alliance",
+      "actor": "Carrie Fisher"
+    }
+  },
+  {
+    "model": "starwars.character",
+    "pk": 3,
+    "fields": {
+      "name": "Darth Vader",
+      "birth_year": "41.9BBY",
+      "gender": "Male",
+      "homeworld": 1,
+      "species": "Human",
+      "affiliation": "Galactic Empire",
+      "actor": "David Prowse / James Earl Jones"
+    }
+  },
+  {
+    "model": "starwars.character",
+    "pk": 4,
+    "fields": {
+      "name": "Yoda",
+      "birth_year": "896BBY",
+      "gender": "Male",
+      "homeworld": null,
+      "species": "Unknown",
+      "affiliation": "Jedi Order",
+      "actor": "Frank Oz"
+    }
+  },
+  {
+    "model": "starwars.character",
+    "pk": 5,
+    "fields": {
+      "name": "Padm\u00e9 Amidala",
+      "birth_year": "46BBY",
+      "gender": "Female",
+      "homeworld": 4,
+      "species": "Human",
+      "affiliation": "Galactic Republic",
+      "actor": "Natalie Portman"
+    }
+  },
+  {
+    "model": "starwars.director",
+    "pk": 1,
+    "fields": {
+      "name": "George Lucas",
+      "birth_year": "1944",
+      "gender": "Male",
+      "homeworld": 5,
+      "awards": "AFI Life Achievement, Saturn Awards",
+      "is_active": true
+    }
+  },
+  {
+    "model": "starwars.director",
+    "pk": 2,
+    "fields": {
+      "name": "Irvin Kershner",
+      "birth_year": "1923",
+      "gender": "Male",
+      "homeworld": null,
+      "awards": "Academy of Science Fiction Awards",
+      "is_active": false
+    }
+  },
+  {
+    "model": "starwars.director",
+    "pk": 3,
+    "fields": {
+      "name": "Richard Marquand",
+      "birth_year": "1937",
+      "gender": "Male",
+      "homeworld": null,
+      "awards": "None",
+      "is_active": false
+    }
+  },
+  {
+    "model": "starwars.director",
+    "pk": 4,
+    "fields": {
+      "name": "J.J. Abrams",
+      "birth_year": "1966",
+      "gender": "Male",
+      "homeworld": 5,
+      "awards": "Emmy, Saturn",
+      "is_active": true
+    }
+  },
+  {
+    "model": "starwars.director",
+    "pk": 5,
+    "fields": {
+      "name": "Rian Johnson",
+      "birth_year": "1973",
+      "gender": "Male",
+      "homeworld": 5,
+      "awards": "Empire Awards, Saturn",
+      "is_active": true
+    }
+  },
+  {
+    "model": "starwars.producer",
+    "pk": 1,
+    "fields": {
+      "name": "Rick McCallum",
+      "birth_year": "1950",
+      "gender": "Male",
+      "homeworld": null,
+      "production_company": "Lucasfilm",
+      "is_active": true
+    }
+  },
+  {
+    "model": "starwars.producer",
+    "pk": 2,
+    "fields": {
+      "name": "Gary Kurtz",
+      "birth_year": "1940",
+      "gender": "Male",
+      "homeworld": null,
+      "production_company": "Lucasfilm",
+      "is_active": false
+    }
+  },
+  {
+    "model": "starwars.producer",
+    "pk": 3,
+    "fields": {
+      "name": "Simon Emanuel",
+      "birth_year": "1975",
+      "gender": "Male",
+      "homeworld": null,
+      "production_company": "Lucasfilm",
+      "is_active": true
+    }
+  },
+  {
+    "model": "starwars.producer",
+    "pk": 4,
+    "fields": {
+      "name": "Kathleen Kennedy",
+      "birth_year": "1953",
+      "gender": "Female",
+      "homeworld": 4,
+      "production_company": "Lucasfilm",
+      "is_active": true
+    }
+  },
+  {
+    "model": "starwars.producer",
+    "pk": 5,
+    "fields": {
+      "name": "Michelle Rejwan",
+      "birth_year": "1978",
+      "gender": "Female",
+      "homeworld": 5,
+      "production_company": "Lucasfilm",
+      "is_active": true
+    }
+  },
+  {
+    "model": "starwars.movie",
+    "pk": 1,
+    "fields": {
+      "title": "A New Hope",
+      "episode_id": 4,
+      "opening_crawl": "It is a period of civil war...",
+      "release_date": "1977-05-25",
+      "director": 1,
+      "producers": [
+        2
+      ],
+      "characters": [
+        1,
+        2,
+        3
+      ],
+      "planets": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "starwars.movie",
+    "pk": 2,
+    "fields": {
+      "title": "The Empire Strikes Back",
+      "episode_id": 5,
+      "opening_crawl": "It is a dark time...",
+      "release_date": "1980-05-17",
+      "director": 2,
+      "producers": [
+        2
+      ],
+      "characters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "planets": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "starwars.movie",
+    "pk": 3,
+    "fields": {
+      "title": "Return of the Jedi",
+      "episode_id": 6,
+      "opening_crawl": "Luke Skywalker has returned...",
+      "release_date": "1983-05-25",
+      "director": 3,
+      "producers": [
+        2
+      ],
+      "characters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "planets": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "starwars.movie",
+    "pk": 4,
+    "fields": {
+      "title": "The Force Awakens",
+      "episode_id": 7,
+      "opening_crawl": "Luke Skywalker has vanished...",
+      "release_date": "2015-12-18",
+      "director": 4,
+      "producers": [
+        3,
+        4,
+        5
+      ],
+      "characters": [
+        1,
+        2
+      ],
+      "planets": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "starwars.movie",
+    "pk": 5,
+    "fields": {
+      "title": "The Last Jedi",
+      "episode_id": 8,
+      "opening_crawl": "The FIRST ORDER reigns...",
+      "release_date": "2017-12-15",
+      "director": 5,
+      "producers": [
+        3,
+        4
+      ],
+      "characters": [
+        1,
+        2,
+        4
+      ],
+      "planets": [
+        5
+      ]
+    }
+  }
+]
